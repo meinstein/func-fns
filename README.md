@@ -2,14 +2,27 @@
 
 Functional utils for your functional needs.
 
+```bash
+npm i func-fns
+```
+
 ## **filter fns**
 
-### _index_
+### _keep_
 
 ```js
-import index from 'func-fns/filter/index'
+import keep from 'func-fns/filter/keep'
 
-const res = ['foo', 'bar', 'baz'].filter(index(1))
+const res = ['foo', 'bar', 'baz'].filter(keep(1))
+console.log(res) // ['bar']
+```
+
+### _remove_
+
+```js
+import remove from 'func-fns/filter/remove'
+
+const res = ['foo', 'bar', 'baz'].filter(remove(1))
 console.log(res) // ['foo', 'baz']
 ```
 

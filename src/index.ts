@@ -1,7 +1,8 @@
 /**
  * FILTER
  */
-export * from './filter/index'
+export * from './filter/keep'
+export * from './filter/remove'
 
 /**
  * MAP
