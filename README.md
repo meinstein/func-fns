@@ -28,6 +28,15 @@ console.log(res) // ['foo', 'baz']
 
 ## **map fns**
 
+### _length_
+
+```js
+import length from 'func-fns/map/length'
+
+const res = ['foo', ['bar', 'baz']].map(length())
+console.log(res) // [3, 2]
+```
+
 ### _replace_
 
 ```js

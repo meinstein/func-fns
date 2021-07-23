@@ -7,6 +7,7 @@ export * from './filter/remove'
 /**
  * MAP
  */
+export * from './map/length'
 export * from './map/transpose'
 export * from './map/replace'
 
