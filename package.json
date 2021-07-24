@@ -1,6 +1,6 @@
 {
   "name": "func-fns",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Functional utils for your functional needs.",
   "main": "index.js",
   "scripts": {
