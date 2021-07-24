@@ -10,6 +10,7 @@ export * from './filter/remove'
 export * from './map/length'
 export * from './map/transpose'
 export * from './map/replace'
+export * from './map/value'
 
 /**
  * REDUCE

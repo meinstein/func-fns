@@ -55,6 +55,15 @@ const res = ['foo', 'bar', 'baz'].map(transpose(1, 2))
 console.log(res) // ['foo', 'baz', 'bar']
 ```
 
+### _value_
+
+```js
+import value from 'func-fns/map/value'
+
+const res = [{ id: 'foo' }, { id: 'bar' }].map(value('id'))
+console.log(res) // ['foo', 'bar']
+```
+
 ## **reduce fns**
 
 ### _insert_
