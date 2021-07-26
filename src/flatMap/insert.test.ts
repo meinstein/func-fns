@@ -1,7 +1,7 @@
 import insert from './insert'
 
 test('insert', () => {
-  expect(['foo', 'bar', 'baz'].reduce(...insert('foo', 1))).toEqual([
+  expect(['foo', 'bar', 'baz'].flatMap(insert('foo', 1))).toEqual([
     'foo',
     'foo',
     'bar',
@@ -10,7 +10,7 @@ test('insert', () => {
 })
 
 test('insert - append when given index is one more than length', () => {
-  expect(['foo', 'bar', 'baz'].reduce(...insert('foo', 3))).toEqual([
+  expect(['foo', 'bar', 'baz'].flatMap(insert('foo', 3))).toEqual([
     'foo',
     'bar',
     'baz',

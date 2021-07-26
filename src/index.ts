@@ -1,19 +1,23 @@
 /**
- * FILTER
+ * filter
  */
 export * from './filter/keep'
 export * from './filter/remove'
 
 /**
- * MAP
+ * flatMap
  */
+export * from './flatMap/insert'
+
+/**
+ * map
+ */
+export * from './map/key'
 export * from './map/length'
 export * from './map/transpose'
 export * from './map/replace'
-export * from './map/value'
 
 /**
- * REDUCE
+ * reduce
  */
-export * from './reduce/insert'
 export * from './reduce/sum'

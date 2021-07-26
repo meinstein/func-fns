@@ -26,6 +26,17 @@ const res = ['foo', 'bar', 'baz'].filter(remove(1))
 console.log(res) // ['foo', 'baz']
 ```
 
+## **flatMap fns**
+
+### _insert_
+
+```js
+import insert from 'func-fns/flatMap/insert'
+
+const res = ['foo', 'bar', 'baz'].flatMap(insert('foo', 1))
+console.log(res) // ['foo', 'foo', 'bar', 'baz']
+```
+
 ## **map fns**
 
 ### _length_
@@ -55,25 +66,16 @@ const res = ['foo', 'bar', 'baz'].map(transpose(1, 2))
 console.log(res) // ['foo', 'baz', 'bar']
 ```
 
-### _value_
+### _key_
 
 ```js
-import value from 'func-fns/map/value'
+import key from 'func-fns/map/key'
 
-const res = [{ id: 'foo' }, { id: 'bar' }].map(value('id'))
+const res = [{ id: 'foo' }, { id: 'bar' }].map(key('id'))
 console.log(res) // ['foo', 'bar']
 ```
 
 ## **reduce fns**
-
-### _insert_
-
-```js
-import insert from 'func-fns/reduce/insert'
-
-const res = ['foo', 'bar', 'baz'].reduce(...insert('foo', 1))
-console.log(res) // ['foo', 'foo', 'bar', 'baz']
-```
 
 ### _sum_
 
