@@ -37,6 +37,15 @@ const res = ['foo', 'bar', 'baz'].flatMap(insert('foo', 1))
 console.log(res) // ['foo', 'foo', 'bar', 'baz']
 ```
 
+### _truthy_
+
+```js
+import truthy from 'func-fns/flatMap/truthy'
+
+const res = ['foo', undefined, 'baz', null].flatMap(truthy())
+console.log(res) // ['foo', 'baz']
+```
+
 ## **map fns**
 
 ### _length_

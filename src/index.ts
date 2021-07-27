@@ -8,6 +8,7 @@ export * from './filter/remove'
  * flatMap
  */
 export * from './flatMap/insert'
+export * from './flatMap/truthy'
 
 /**
  * map
