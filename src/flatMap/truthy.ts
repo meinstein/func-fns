@@ -1,4 +1,4 @@
-type Map<T> = (value: T) => T[]
+type Map<T> = (value: T | undefined | null) => T[]
 
 export const truthy = <T>(): Map<T> => {
   return (value) => {
