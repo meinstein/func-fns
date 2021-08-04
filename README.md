@@ -26,6 +26,15 @@ const res = ['foo', 'bar', 'baz'].filter(remove(1))
 console.log(res) // ['foo', 'baz']
 ```
 
+### _uniq_
+
+```js
+import uniq from 'func-fns/filter/uniq'
+
+const res = ['foo', 'foo', 'bar', 1, 1].filter(uniq())
+console.log(res) // ['foo', 'bar', 1]
+```
+
 ## **flatMap fns**
 
 ### _insert_
