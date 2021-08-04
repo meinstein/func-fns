@@ -3,6 +3,7 @@
  */
 export * from './filter/keep'
 export * from './filter/remove'
+export * from './filter/uniq'
 
 /**
  * flatMap
