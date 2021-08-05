@@ -104,6 +104,8 @@ const res = [1, 2, 3, 4, 5].reduce(...shuffle())
 console.log(res) // will be shuffled, eg, [5, 2, 1, 4, 3]
 ```
 
+### _sum_
+
 ```js
 import sum from 'func-fns/reduce/sum'
 
