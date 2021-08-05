@@ -22,4 +22,5 @@ export * from './map/replace'
 /**
  * reduce
  */
+export * from './reduce/shuffle'
 export * from './reduce/sum'

@@ -95,7 +95,14 @@ console.log(res) // ['foo', 'bar']
 
 ## **reduce fns**
 
-### _sum_
+### _shuffle_
+
+```js
+import shuffle from 'func-fns/reduce/shuffle'
+
+const res = [1, 2, 3, 4, 5].reduce(...shuffle())
+console.log(res) // will be shuffled, eg, [5, 2, 1, 4, 3]
+```
 
 ```js
 import sum from 'func-fns/reduce/sum'
