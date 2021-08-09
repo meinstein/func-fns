@@ -1,3 +1,5 @@
+# ⚠️ DEPRECATED - USE [FLATMAP-FNS](https://github.com/meinstein/flatmap-fns) INSTEAD ⚠️
+
 # func-fns
 
 Functional utils for your functional needs.
